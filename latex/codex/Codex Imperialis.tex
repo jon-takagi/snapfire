@@ -314,14 +314,25 @@ Lore stuff
 \statsEND
 
 \unit{Hammerfall Bunker} {
-  Rhino? Razorback?
+  finally gets deepstrike
 }
 \stats{AV}{0}{4+}{6+}{4+}
 \weapon{Hammerfall Missile Array}{45cm}{2xAP5+/AT6+}{}
 \weapon{Hammerfall Flamer Array}{15cm}{2xAP3+}{IC}
 \weapon{Storm Bolters}{(15cm)}{Small Arms}{}
 \image{default.png}
-\notes{Transport. May transport 1 infantry unit without Jump Packs, Gravis, or Mounted}
+\notes{Planetfall}
+\statsEND
+
+\unit{Overlord Gunship} {
+  who knows
+}
+\stats{AC / WE}{Bomber}{4+}{6+}{4+}
+\weapon{All the Guns}{???}{???}{}
+\image{default.png}
+\notes{Damage Capacity 2, Reinforced Armor, Planetfall, Transport. May transport eight
+infantry units, Outriders or Dreadnoughts; Gravis units and Dreadnoughts count
+as two units each. Critical Hit Effect: The unit and all units being carried are destroyed.}
 \statsEND
 % unit template (copy and paste)...
 % \unit{Nurgloid} {							% required
@@ -339,38 +350,49 @@ Lore stuff
 % ARMY LIST
 %
 \clearpage
-\section{Death Guard Army}
+\section{Primaris Space Marine Army}
 \subsection{Using the Army List}
-Death Guard Marines are organised around core formations
-called companies or retinues of Plague Marines which are
-supported by rarer formations of specialised troops.
-
-Some formations are Core Retinues – these are the backbone
-of the Death Guard army. More rare and specialised
-formations are Support Retinues and you may not have more
-Support Formations than Death Guard Retinue formations.
-The chart below shows the name of the formation, what units
-comprise it, what upgrades are allowed for it, and the points
-cost for the formation.
-
-Each upgrade that is taken adds to the cost of the formation,
-as shown on the upgrade chart. The upgrade chart also lists
-the units that make up the upgrade. Note that these will
-sometimes replace units in the formations they are taken for,
-and sometimes adds additional units to the formation. Each
-upgrade may be taken \underline{once} per formation.
-\specialRule{Stubborn}{
- Nurgle’s
- followers are inured against pain, implacable
- and diseased of mind in many cases. The Death Guard
- always had a reputation for tenacity, which has not been
- reduced by their exposure to the Warp. \par
- All units that are Stubborn may make their normal armour
- saves (including any re-rolls that may apply) against
- hackdown hits due to losing close combat or hits caused
- by suffering Blast Markers when broken. Note that
- Stubborn units are still destroyed outright if they are
- within 15cm of enemy at the end of a Withdrawal move.
+IDK how they work
+\specialRule{Space Marine Transports}{
+  The Space Marines are a highly mobile army. Because of
+  this, the points cost of a detachment usually includes
+  enough Rhino transport vehicles to transport it and any
+  upgrades that have been taken. Determine the number of
+  Impulsors needed after all upgrades have been purchased. The
+  number of Impulsors will always be the minimum needed to
+  carry the formation, you can’t take extras along to cover
+  any losses!
+  Note that many formations don’t receive Impulsors, usually
+  because they can’t fit into them. Detachments that come
+  with Impulsors will be noted as having “plus transport” in the
+  units section of the army list opposite.
+  Also note that you don’t have to take Impulsors if you don’t
+  want to. If you’d rather field the formation on foot instead,
+  so it can act as a garrison for example, or be transported in
+  a Overlord Gunship, then you may do so.
+  In addition, you may choose to replace a detachment’s
+  Impulsors with Drop Pods. If you do this then the
+  detachment will enter play in a Drop Pod using the rules
+  for Planetfall (see Planetfall). Note that if you choose to do
+  this you will also require at least one Space Marine Strike
+  Cruiser or Battle Barge to deploy the drop pods from.
+  Before each game, after the opposing army is known but
+  before objectives are placed, the Space Marine player may
+  choose which formations with the “plus transport” aspect
+  are deployed in Rhinos, Drop Pods or on foot. If the
+  formation has any units unable to deploy in Drop Pods
+  then that option cannot be selected.
+}
+\specialRule{They Shall Know No Fear}{
+  They Shall Know No Fear
+Space Marines are renowned for their tenacity and bravery. This is represented by the following rules:
+• It takes 2 Blast markers to suppress a Space Marine unit or kill a unit in a broken formation (ignore any leftover Blast markers).
+• Space Marine formations are only broken if they have 2 Blast markers per unit in the formation.
+• Space Marines formations only count half their number of Blaster markers in assault resolution (rounding down—note that assault resolution will not receive +1 for having no Blast
+markers if the formation has 1 Blast marker before rounding down). Halve the number of extra hits suffered by a Space Marine formation that loses an assault, rounding down in
+favour of the Space Marines.
+• When a broken Space Marine formation rallies, it receives a number of Blast markers equal to the number of units, rather than half this number. Space Marines with the Leader
+special ability remove 2 Blast markers instead of 1
 }
 
 \designConcept{example}{
@@ -379,24 +401,47 @@ upgrade may be taken \underline{once} per formation.
 
 % header...
 \armylist{Death Guard Chaos Space Marine Army List}{150-nurgle-mark.png}{
-	All Death Guard, Daemon and Titan Legion formations have an initiative rating of 1+.
-	Chaos Navy formations have an initiative rating of 2+. Death Guard armies have a
-	strategy rating of 4. \par One of the Death Guard Lords in the army must be Warlord.
+  Codex Astartes Space Marine armies have a strategy rating of 5. Imperial Navy aircraft formations have an initiative rating of 2+. All
+  other formations have an initiative rating of 1+
 }
 % formations...
-\formations{DEATH GUARD CORE RETINUES}{ \vspace{-3mm} }
-\formation{Death Guard Retinue}
-          {One Death Guard Lord. Four Death Guard Chaos Marine and two Plague Marines units.}
-          {Any except Dreadclaws}
+\formations{PRIMARIS SPACE MARINE DETACHMENTS}{ \vspace{-3mm} }
+\formation{Battle Line}
+          {6 Intercessor Squad plus transport}
+          {Company Command, Dreadnoughts, Repulsors}
+          {275 points}
+\formation{Phobos Battle Line}
+          {Any 6 Infiltrators, Incursors plus transport}
+          {Company Command, Invictor Warsuits}
+          {275 points}
+\formation{Heavy Battle Line}
+          {4 Heavy Intercessor Squad plus transport}
+          {Company Command, Dreadnoughts, Repulsors}
           {250 points}
-\formation{Death Guard Heavy Retinue}
-          {One Death Guard Lord. Six Death Guard Marines units.}
-          {Any except Dreadclaws}
+\formation{Close Support}
+          {Any 4 Assault Intercessor, Assault Intercessors with Jump Packs plus transport}
+          {Company Command, Dreadnoughts, Repulsors}
+          {175 points}  
+\formation{Phobos Close Support}
+          {4 Reivers}
+          {Company Command, Invictor Warsuits}
+          {200 points}
+\formation{Heavy Close Support}
+          {4 Aggressors plus transport}
+          {Company Command, Dreadnoughts, Repulsors}
           {350 points}
-\formation{Demon Pool}
-          {Greater Demon \newline Lesser Demon}
-          {}
-          {75 points \newline 15 points}
+\formation{Fire Support}
+          {Any 4 Hellblaster Squads, Desolation Squads, or Infernus Squads plus transport}
+          {Company Command, Dreadnoughts, Repulsors}
+          {250 points}
+\formation{Heavy Fire Support}
+          {4 Eradicators plus transport}
+          {Company Command, Dreadnoughts, Repulsors}
+          {250 points}
+\formation{Heavy Close Support}
+          {4 Aggressors plus transport}
+          {Company Command, Dreadnoughts, Repulsors}
+          {350 points}
 \formationsEND
 
 % support...
@@ -438,9 +483,9 @@ upgrade may be taken \underline{once} per formation.
 \upgradesEND
 
 % upgrades...
-\upgrades{DEATH GUARD UPGRADES}{Each upgrade may only be taken once if formation allows taking it}
-\upgrade{Chaos Champion}{Adds a Chaos Champion to a unit in the formation}{50 points}
-\upgrade{Chaos Spawn}{Add up to three Chaos Spawn to the formation}{25 points each}
+\upgrades{PRIMARIS SPACE MARINE UPGRADES}{Each upgrade may only be taken once if formation allows taking it}
+\upgrade{Company Command}{Adds a Captain, Chaplain, or Lieutenant in matching armor to a unit in the formation}{50 points}
+\upgrade{Gravis}{Upgrade Intercessors to Heavy Intercessors}{100 points}
 \upgrade{Demonic Pact}{Allows the formation to summon Demons from the Demon Pool}{25 points}
 \upgrade{0 - 1 Demon Prince}{Replace the unit with Death Guard Lord character with the Daemon Prince unit.}{50 points}
 \upgrade{Dreadclaw}{Equips the formation with Dreadclaw Assault Boats. There must be at least enough to transport all units in formation.}{25 per 4 units}
