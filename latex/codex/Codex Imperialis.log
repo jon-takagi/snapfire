@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.3)  3 APR 2025 11:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.3)  3 APR 2025 12:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -251,33 +251,33 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 42.
+(Font)              <7> on input line 43.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 42.
+(Font)              <5> on input line 43.
 <default.png, id=9, 113.42375pt x 56.21pt>
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 44.
+Package pdftex.def Info: default.png  used on input line 45.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 54.
+Package pdftex.def Info: default.png  used on input line 55.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 63.
+Package pdftex.def Info: default.png  used on input line 64.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 73.
+Package pdftex.def Info: default.png  used on input line 74.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 83.
+Package pdftex.def Info: default.png  used on input line 84.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 92.
+Package pdftex.def Info: default.png  used on input line 93.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 
 
@@ -287,23 +287,23 @@ Package pdftex.def Info: default.png  used on input line 92.
  <./default.png>]
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 101.
+Package pdftex.def Info: default.png  used on input line 102.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 110.
+Package pdftex.def Info: default.png  used on input line 112.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 119.
+Package pdftex.def Info: default.png  used on input line 121.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 128.
+Package pdftex.def Info: default.png  used on input line 130.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 138.
+Package pdftex.def Info: default.png  used on input line 139.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
@@ -322,19 +322,19 @@ Package pdftex.def Info: default.png  used on input line 167.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 177.
+Package pdftex.def Info: default.png  used on input line 176.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 187.
+Package pdftex.def Info: default.png  used on input line 186.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 198.
+Package pdftex.def Info: default.png  used on input line 196.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 207.
+Package pdftex.def Info: default.png  used on input line 206.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 
 
@@ -345,63 +345,77 @@ Package pdftex.def Info: default.png  used on input line 217.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 227.
+Package pdftex.def Info: default.png  used on input line 226.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 237.
+Package pdftex.def Info: default.png  used on input line 236.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 247.
+Package pdftex.def Info: default.png  used on input line 246.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 257.
+Package pdftex.def Info: default.png  used on input line 256.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 
 
 [5]
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 267.
+Package pdftex.def Info: default.png  used on input line 266.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 278.
+Package pdftex.def Info: default.png  used on input line 276.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 289.
+Package pdftex.def Info: default.png  used on input line 286.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 302.
+Package pdftex.def Info: default.png  used on input line 297.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 312.
+Package pdftex.def Info: default.png  used on input line 308.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 
 
 [6]
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 323.
+Package pdftex.def Info: default.png  used on input line 321.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 File: default.png Graphic file (type png)
 <use default.png>
-Package pdftex.def Info: default.png  used on input line 332.
+Package pdftex.def Info: default.png  used on input line 331.
+(pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
+File: default.png Graphic file (type png)
+<use default.png>
+Package pdftex.def Info: default.png  used on input line 342.
+(pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
+File: default.png Graphic file (type png)
+<use default.png>
+Package pdftex.def Info: default.png  used on input line 351.
+(pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
+File: default.png Graphic file (type png)
+<use default.png>
+Package pdftex.def Info: default.png  used on input line 360.
 (pdftex.def)             Requested size: 108.12054pt x 53.58188pt.
 
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 353--353
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 381--381
 []\OT1/cmr/bx/n/14.4 Primaris Space Ma-rine
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 396--396
+Underfull \hbox (badness 2073) in paragraph at lines 424--424
 \OT1/cmr/m/it/10 They Shall Know No Fear Space Marines are
  []
 
@@ -415,21 +429,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[8
+[9
 
 
 {c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Overfull \hbox (1.23766pt too wide) in paragraph at lines 406--408
+Overfull \hbox (1.23766pt too wide) in paragraph at lines 434--436
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--408
+Underfull \hbox (badness 10000) in paragraph at lines 434--436
 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 483
+Underfull \vbox (badness 4899) detected at line 516
  []
 
 
@@ -437,12 +451,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[9
+[10
 
 
 ]
 
-[10] (./Codex Imperialis.aux)
+[11] (./Codex Imperialis.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -451,16 +465,16 @@ L3 programming layer <2025-01-18>
 Here is how much of TeX's memory you used:
  2435 strings out of 473189
  38736 string characters out of 5719959
- 476131 words of memory out of 5000000
+ 474131 words of memory out of 5000000
  25687 multiletter control sequences out of 15000+600000
  562644 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,21n,79p,310b,366s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,21n,79p,552b,366s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on "Codex Imperialis.pdf" (10 pages, 143712 bytes).
+Output written on "Codex Imperialis.pdf" (11 pages, 151567 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 82 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
