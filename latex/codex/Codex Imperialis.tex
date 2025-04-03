@@ -1,0 +1,464 @@
+% Example codex.tex usage
+% author:adam77
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PREAMBLE
+%
+\documentclass[a4paper, twocolumn]{article}
+\usepackage{codex}	% this package contains the macros
+\setNumberingPrefix{SM}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DOCUMENT
+%
+\begin{document}
+
+\codexTitle{Codex Imperialis: Primaris Space Marines}{Experimental Army List}{v0.1 by Jon Takagi}
+
+\section{Primaris Space Marines}
+
+\subsection{Cicatrix Maledictum}
+lore stuff
+
+\subsection{Primaris Space Marines}
+lore stuff
+
+\subsection{The Ultima Founding}
+Lore stuff
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% UNITS
+%
+\clearpage \onecolumn
+\section{Primaris Units}
+
+\subsection{Chapter Command}
+
+\unit{Chapter Master}{
+  lore blurb
+}
+\stats{Character}{-}{-}{-}{-}
+\weapon{Master Crafted Power Weapon}{(base contact)}{Assault Weapons}{Extra Attack (+1), Macro-Weapon}
+\image{default.png}
+\notes{Invulnerable Save, Supreme Commander}
+\statsEND
+
+
+\unit{Captain}{
+  lore blurb
+}
+\stats{Character}{-}{-}{-}{-}
+\weapon{Master Crafted Power Weapon}{(base contact)}{Assault Weapons}{Extra Attack (+1), Macro-Weapon}
+\image{default.png}
+\notes{Invulnerable Save, Leader}
+\statsEND
+
+\unit{Chaplain}{
+  lore blurb
+}
+\stats{Character}{-}{-}{-}{-}
+\weapon{Crozius Arcanum}{(base contact)}{Assault Weapons}{Extra Attack (+1), Macro-Weapon}
+\image{default.png}
+\notes{Inspiring, Invulnerable Save, Leader}
+\statsEND
+
+\unit{Lieutenant}{
+  lore blurb
+}
+\stats{Character}{-}{-}{-}{-}
+\weapon{Master Crafted Small Arms Weapon}{(15cm)}{Assault Weapons}{Extra Attack (+1), Macro-Weapon}
+\weapon{Master Crafted Power Weapon}{(base contact)}{Assault Weapons}{Extra Attack (+1), Macro-Weapon}
+\image{default.png}
+\notes{Invulnerable Save, Leader}
+\statsEND
+
+\unit{Intercessor Squad} {
+  Tacticals
+}
+\stats{Infantry}{15cm}{4+}{4+}{4+}
+\weapon{Bolt Rifles}{15cm}{Small Arms}{-}
+\weapon{Auxilliary Grenade Launcher}{45cm}{AP5+}{-}
+\image{default.png}
+\notes{Tacticus}
+\statsEND
+
+\unit{Assault Intercessors} {
+  Choppy tacticals
+}
+\stats{Infantry}{15cm}{4+}{3+}{5+}
+\weapon{Heavy Bolt Pistols}{(15cm)}{Small Arms}{-}
+\image{default.png}
+\notes{Tacticus}
+\statsEND
+
+\unit{Assault Intercessors with Jump Packs} {
+  Lore
+}
+\stats{Infantry}{30cm}{4+}{3+}{5+}
+\weapon{Heavy Bolt Pistols}{(15cm)}{Small Arms}{-}
+\image{default.png}
+\notes{Tacticus, Jump Packs}
+\statsEND
+
+\unit{Outriders} {
+  Lore
+}
+\stats{Infantry}{35cm}{4+}{3+}{4+}
+\weapon{Twin Bolt Rifles}{(15cm)}{Small Arms}{-}
+\image{default.png}
+\notes{Tacticus, Mounted}
+\statsEND
+
+\unit{Hellblaster Squad} {
+  Plasma Devastators
+}
+\stats{Infantry}{15cm}{4+}{5+}{3+}
+\weapon{2x Plasma Incinerator (Supercharged)}{45cm}{AP5+/AT6+}{-}
+\image{default.png}
+\notes{Tacticus}
+\statsEND
+
+\unit{Infernus Squad} {
+  Flamer Devastators
+}
+\stats{Infantry}{15cm}{4+}{5+}{3+}
+\weapon{Pyreblasters}{15cm}{AP3+}{IC}
+\image{default.png}
+\notes{Tacticus}
+\statsEND
+
+
+\unit{Infiltrator Squad} {
+  Shooty phobos
+}
+\stats{Infantry}{15cm}{4+}{4+}{4+}
+\weapon{Marksman Bolt Carbine}{15cm}{Small Arms}{-}
+\image{default.png}
+\notes{Phobos, Infiltrator, Invulnerable Save, Scout, Teleport}
+\statsEND
+
+\unit{Incursor Squad} {
+  mixed phobos
+}
+\stats{Infantry}{15cm}{4+}{4+}{4+}
+\weapon{Occulus Bolt Carbine}{15cm}{Small Arms}{-}
+\weapon{Haywire Mine}{(bc)}{Assault Weapons}{Single Shot, MW}
+\image{default.png}
+\notes{Phobos, Infiltrator, Scout, Teleport}
+\statsEND
+
+\unit{Eliminators} {
+  sniper phobos
+}
+\stats{Infantry}{15cm}{4+}{4+}{5+}
+\weapon{Eliminator Bolt Sniper Rifle}{45cm}{AP5+}{}
+\image{default.png}
+\notes{Phobos, Infiltrator, Scout, Sniper, Teleport}
+\statsEND
+
+\unit{Reivers} {
+  stabby phobos
+}
+\stats{Infantry}{15cm}{4+}{4+}{5+}
+\weapon{Special Issue Bolt Pistol}{(15cm)}{Small Arms}{Sniper}
+\weapon{Combat Knives}{(base contact)}{Assault Weapons}{Sniper}
+\image{default.png}
+\notes{Phobos, Infiltrator, Scout, Sniper, Jump Packs}
+\statsEND
+
+\unit{Heavy Intercessors} {
+  oh lawd they thicc
+}
+\stats{Infantry}{15cm}{3+}{4+}{4+}
+\weapon{Heavy Bolter}{30cm}{AP5+}{}
+\weapon{Heavy Bolt Rifles}{(15cm)}{Small Arms}{}
+\image{default.png}
+\notes{Gravis, Thick Rear Armor}
+\statsEND
+
+\unit{Aggressors} {
+  Turbonators
+}
+\stats{Infantry}{15cm}{3+}{3+}{3+}
+\weapon{Flamestorm Gauntlets }{(15cm)}{Small Arms}{IC}
+\weapon{Power Fists}{(base contact)}{Assault Weapons}{EA (+1), MW}
+\image{default.png}
+\notes{Gravis, Thick Rear Armor}
+\statsEND
+
+\unit{Eradicators} {
+  Melta Rifle
+}
+\stats{Infantry}{15cm}{3+}{5+}{4+}
+\weapon{2x Melta Rifle}{15cm}{Small Arms}{MW 5+}
+\weapon{- and}{(15cm)}{Small Arms}{MW 5+}
+\weapon{Power Fists}{(base contact)}{Assault Weapons}{EA (+1), MW}
+\image{default.png}
+\notes{Gravis, Thick Rear Armor}
+\statsEND
+
+\unit{Inceptors} {
+  They fly now!
+}
+\stats{Infantry}{25cm}{3+}{5+}{3+}
+\weapon{Assault Bolters}{30cm}{AP5+}{}
+\image{default.png}
+\notes{Gravis, Jump Packs,Thick Rear Armor}
+\statsEND
+
+\unit{Storm Speeder Hailstrike} {
+  land speeder go BRRRT
+}
+\stats{LV}{35cm}{4+}{6+}{3+}
+\weapon{Twin Ironhail Heavy Stubber}{30cm}{AP5+}{}
+\weapon{Onslaught Gatling Cannon}{30cm}{AP5+/AT6+}{}
+\image{default.png}
+\notes{Scout, Skimmer}
+\statsEND
+
+\unit{Storm Speeder Hammerstrike} {
+  land speeder go melta
+}
+\stats{LV}{35cm}{4+}{6+}{3+}
+\weapon{Melta Destroyer}{15cm}{MW5+}{}
+\weapon{Hammerstrike Missile Launcher}{30cm}{AP5+/AT6+}{}
+\image{default.png}
+\notes{Scout, Skimmer}
+\statsEND
+
+\unit{Storm Speeder Thunderstrike} {
+  land speeder go lascannon
+}
+\stats{LV}{35cm}{4+}{6+}{3+}
+\weapon{Thunderstrike las-talon}{30cm}{AT4+}{}
+\weapon{Stormfury Missiles}{45cm}{AT4+}{}
+\image{default.png}
+\notes{Scout, Skimmer}
+\statsEND
+
+\unit{Redemptor Dreadnought} {
+  Dreadnought
+}
+\stats{AV}{15cm}{3+}{4+}{4+}
+\weapon{Macro Plasma Incinerator}{30cm}{AP5+/AT5+}{}
+\weapon{Redemptor Fist}{(bc)}{Assault Weapons}{EA (+1), MW}
+\image{default.png}
+\notes{Walker}
+\statsEND
+
+\unit{Brutalis Dreadnought} {
+  Dreadnought
+}
+\stats{AV}{15cm}{3+}{4+}{4+}
+\weapon{Twin Heavy bolters}{30cm}{AP5+}{}
+\weapon{2x Redemptor Fist}{(bc)}{Assault Weapons}{EA (+1), MW}
+\image{default.png}
+\notes{Walker}
+\statsEND
+
+\unit{Repulsor} {
+  Repulsor
+}
+\stats{AV}{25cm}{4+}{6+}{4+}
+\weapon{Twin Lascannon}{45cm}{AT4+}{}
+\weapon{Heavy Onslaught Gatling Cannon}{30cm}{2xAP5+}{}
+\image{default.png}
+\notes{Reinforced Armor, Transport. May transport 2 infantry units without Gravis, Jump Packs or Mounted or 1 Gravis infantry unit}
+\statsEND
+
+\unit{Repulsor Executioner} {
+  Repulsor
+}
+\stats{AV}{25cm}{4+}{6+}{3+}
+\weapon{Heavy Laser Destroyer}{60cm}{AP4+/AT2+}{}
+\weapon{Heavy Onslaught Gatling Cannon}{30cm}{2xAP5+}{}
+\weapon{Repulsor Tacticool Nonsense}{(15cm)}{Small Arms}{}
+\image{default.png}
+\notes{Reinforced Armor, Transport. May transport 1 infantry units without Jump Packs or Mounted}
+\statsEND
+
+\unit{Gladiator Reaper} {
+  brrtmobile
+  Shorter range and less flexible than predator destructors but with More BRRRT
+}
+\stats{AV}{30cm}{4+}{6+}{4+}
+\weapon{Twin Heavy Onslaught Gatling Cannon}{30cm}{2xAP4+}{}
+\weapon{Tempest Bolters}{15cm}{2xAP5+}{}
+\image{default.png}
+\notes{}
+\statsEND
+
+\unit{Gladiator Lancer} {
+  laser
+  10th stats: 
+  lancer: 72" 2A BS3 S14 AP-4 Dd6+3 1 hit wound dmg reroll
+  pred  : 48" 3A BS3 S12 AP-3 Dd6+1 all dmg reroll, 1 wound reroll
+}
+\stats{AV}{30cm}{4+}{6+}{4+}
+\weapon{Gladiator Laser Destroyer}{75cm}{AP4+/AT2+}{}
+\weapon{Rocket Pods}{30cm}{AP5+}{}
+\image{default.png}
+\notes{}
+\statsEND
+
+\unit{Impulsor} {
+  Rhino? Razorback?
+}
+\stats{AV}{30cm}{5+}{6+}{5+}
+\weapon{Bellicatus Missile Array}{45cm}{AP5+/AT6+}{}
+\weapon{Storm Bolters}{(15cm)}{Small Arms}{}
+\image{default.png}
+\notes{Transport. May transport 1 infantry unit without Jump Packs, Gravis, or Mounted}
+\statsEND
+
+\unit{Hammerfall Bunker} {
+  Rhino? Razorback?
+}
+\stats{AV}{0}{4+}{6+}{4+}
+\weapon{Hammerfall Missile Array}{45cm}{2xAP5+/AT6+}{}
+\weapon{Hammerfall Flamer Array}{15cm}{2xAP3+}{IC}
+\weapon{Storm Bolters}{(15cm)}{Small Arms}{}
+\image{default.png}
+\notes{Transport. May transport 1 infantry unit without Jump Packs, Gravis, or Mounted}
+\statsEND
+% unit template (copy and paste)...
+% \unit{Nurgloid} {							% required
+% 	---description goes here---
+% }
+% \stats{type}{speed}{armour}{cc}{ff}			% required
+% \weapon{name}{range}{tohit}{notes}			% 1 or more...
+% \image{default.png}							% required
+% \comment{...comment...}						% can be left out
+% \notes{...notes...}							% can be left out
+% \statsEND
+
+\twocolumn
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ARMY LIST
+%
+\clearpage
+\section{Death Guard Army}
+\subsection{Using the Army List}
+Death Guard Marines are organised around core formations
+called companies or retinues of Plague Marines which are
+supported by rarer formations of specialised troops.
+
+Some formations are Core Retinues – these are the backbone
+of the Death Guard army. More rare and specialised
+formations are Support Retinues and you may not have more
+Support Formations than Death Guard Retinue formations.
+The chart below shows the name of the formation, what units
+comprise it, what upgrades are allowed for it, and the points
+cost for the formation.
+
+Each upgrade that is taken adds to the cost of the formation,
+as shown on the upgrade chart. The upgrade chart also lists
+the units that make up the upgrade. Note that these will
+sometimes replace units in the formations they are taken for,
+and sometimes adds additional units to the formation. Each
+upgrade may be taken \underline{once} per formation.
+\specialRule{Stubborn}{
+ Nurgle’s
+ followers are inured against pain, implacable
+ and diseased of mind in many cases. The Death Guard
+ always had a reputation for tenacity, which has not been
+ reduced by their exposure to the Warp. \par
+ All units that are Stubborn may make their normal armour
+ saves (including any re-rolls that may apply) against
+ hackdown hits due to losing close combat or hits caused
+ by suffering Blast Markers when broken. Note that
+ Stubborn units are still destroyed outright if they are
+ within 15cm of enemy at the end of a Withdrawal move.
+}
+
+\designConcept{example}{
+ blah blah blah
+}
+
+% header...
+\armylist{Death Guard Chaos Space Marine Army List}{150-nurgle-mark.png}{
+	All Death Guard, Daemon and Titan Legion formations have an initiative rating of 1+.
+	Chaos Navy formations have an initiative rating of 2+. Death Guard armies have a
+	strategy rating of 4. \par One of the Death Guard Lords in the army must be Warlord.
+}
+% formations...
+\formations{DEATH GUARD CORE RETINUES}{ \vspace{-3mm} }
+\formation{Death Guard Retinue}
+          {One Death Guard Lord. Four Death Guard Chaos Marine and two Plague Marines units.}
+          {Any except Dreadclaws}
+          {250 points}
+\formation{Death Guard Heavy Retinue}
+          {One Death Guard Lord. Six Death Guard Marines units.}
+          {Any except Dreadclaws}
+          {350 points}
+\formation{Demon Pool}
+          {Greater Demon \newline Lesser Demon}
+          {}
+          {75 points \newline 15 points}
+\formationsEND
+
+% support...
+\formations{DEATH GUARD INFANTRY SUPPORT}{One per Death Guard Core Retinue}
+\formation{Death Guard Drop Retinue}
+          {One Death Guard Lord. Four Death Guard Chaos Marine and two Plague Marines units.}
+          {Chaos Champion, Daemonic Pact, Daemon Prince, Death Guard Havocs, Dreadclaws, Icon Bearer, Plague Marines, Walkers}
+          {250 points}
+\formation{Death Guard Terminator Retinue}
+          {One Death Guard Lord. Between four to seven Death Guard Terminator units.}
+          {Chaos Champion, Daemonic Pact, Daemon Prince, Icon Bearer, Transport, Walkers}
+          {50 points \newline +100 points per unit}
+\formation{Plague Zombie Infestation}
+          {D6 + 7 Plague Zombie units.}
+          {}
+          {175 points}
+\formationsEND
+\formations{DEATH GUARD VEHICLE SUPPORT}{One per Death Guard Core Retinue}
+\formation{Armoured Company}
+          {Four units from following list: Predators, Land Raiders}
+          {Support Vehicles}
+          {50 points per Predator \newline 100 points per Land Raider}
+\formation{Assault Retinue}{Up to three Plague Reapers.}{Support Vehicles, Walkers}{275 points each}
+\formation{Blight Drone Swarm}{Five Blight Drones.}{}{250 points}
+\formation{Contagion Towers}{Four Contagion Towers.}{}{325 points}
+\formation{Plague Towers}{Up to three Plague Towers.}{}{325 points each}
+\formation{Defilers Assault Pack}{Four Defilers.}{Walkers}{275 points each}
+\formationsEND
+
+% assets...
+\upgrades{DEATH GUARD TITANS, SPACECRAFT AND NAVY ASSETS}{Up to a third of points}
+\upgrade{Plaguelord Titan}{One Plaguelord Titan}{850 points}
+\upgrade{Repugnant Titan}{One Repugnant Titan}{650 points}
+\upgrade{Fester Titan Pack}{One to two Fester Scout Titans}{300 points each}
+\upgrade{Hellblade}{Three Hellblade Fighters}{200 points}
+\upgrade{Helltalon}{Two Helltalon Fighter-Bombers}{200 points}
+\upgrade{Devastation}{One Devastation class Cruiser}{250 points}
+\upgrade{Despoiler}{One Despoiler class Battleship}{250 points}
+\upgradesEND
+
+% upgrades...
+\upgrades{DEATH GUARD UPGRADES}{Each upgrade may only be taken once if formation allows taking it}
+\upgrade{Chaos Champion}{Adds a Chaos Champion to a unit in the formation}{50 points}
+\upgrade{Chaos Spawn}{Add up to three Chaos Spawn to the formation}{25 points each}
+\upgrade{Demonic Pact}{Allows the formation to summon Demons from the Demon Pool}{25 points}
+\upgrade{0 - 1 Demon Prince}{Replace the unit with Death Guard Lord character with the Daemon Prince unit.}{50 points}
+\upgrade{Dreadclaw}{Equips the formation with Dreadclaw Assault Boats. There must be at least enough to transport all units in formation.}{25 per 4 units}
+\upgrade{Death Guard Havocs}{Add four Death Guard Havocs to the formation}{200 points}
+\upgrade{Icon Bearer}{Add an Icon Bearer to a unit in the formation}{50 points}
+\upgrade{Plague Marines}{Add four Plague Marines to the formation}{150 points}
+\upgrade{Support Vehicles}
+		{Add up to three units \pushRight Predator, Stalker \newline \pushRight Land Raider}
+        {50 points \newline 75 points}
+\upgrade{Transport}
+        {Add Rhinos and/or Land Raiders to the formation. You can take only minimum to transport the
+         formation (including any transport capable unit taken from Support Vehicle Upgrade).}
+        {10 per Rhino \newline 75 per Land Raider}
+\upgrade{Walkers}
+        {Add up to three units \pushRight Dreadnought \newline \pushRight Defiler, Desecrator }
+        {50 points \newline 75 points}
+\upgradesEND
+
+\twocolumn			% required after the army list
+
+\end{document}
