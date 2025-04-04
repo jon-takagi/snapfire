@@ -86,7 +86,9 @@ Lore stuff
 \statsEND
 
 \unit{Assault Intercessors} {
-  Choppy tacticals
+  Compare to Iron Warriors Assault marines, also on foot, but IW siege pack is 6 for 225 or 255 for rhinos
+  \newline
+  space wolf blood claws also choppy foot tacs, but have 6+ FF and run in 6 for 200 with rhinos
 }
 \stats{Infantry}{15cm}{4+}{3+}{5+}
 \weapon{Heavy Bolt Pistols}{(15cm)}{Small Arms}{-}
@@ -135,7 +137,8 @@ Lore stuff
   Flamer Devastators
 }
 \stats{Infantry}{15cm}{4+}{5+}{3+}
-\weapon{Pyreblasters}{15cm}{AP3+}{IC}
+\weapon{Pyreblasters}{15cm}{AP4+}{IC}
+\weapon{and}{(15cm)}{Small Arms}{IC}
 \image{default.png}
 \notes{Tacticus}
 \statsEND
@@ -257,6 +260,16 @@ Lore stuff
 \notes{Scout, Skimmer}
 \statsEND
 
+\unit{Invictor Warsuit} {
+  Stealth Dreadnought
+}
+\stats{AV}{15cm}{3+}{4+}{4+}
+\weapon{Twin Ironhail Autocannon}{45cm}{AP4+/AT5+}{}
+\weapon{Heavy Bolter}{30cm}{AP5+}{}
+\weapon{Invictor Fist}{(bc)}{Assault Weapons}{EA (+1), MW}
+\image{default.png}
+\notes{Walker}
+\statsEND
 \unit{Redemptor Dreadnought} {
   Dreadnought
 }
@@ -273,6 +286,16 @@ Lore stuff
 \stats{AV}{15cm}{3+}{4+}{4+}
 \weapon{Twin Heavy bolters}{30cm}{AP5+}{}
 \weapon{2x Redemptor Fist}{(bc)}{Assault Weapons}{EA (+1), MW}
+\image{default.png}
+\notes{Walker}
+\statsEND
+
+\unit{Ballistus Dreadnought} {
+  Dreadnought
+}
+\stats{AV}{15cm}{3+}{4+}{4+}
+\weapon{Twin Lascannon}{45cm}{AT4+}{}
+\weapon{Ballistus Missile Launcher}{45cm}{AP5+/AT6+}{}
 \image{default.png}
 \notes{Walker}
 \statsEND
@@ -323,7 +346,7 @@ Lore stuff
 \statsEND
 
 \unit{Impulsor} {
-  Rhino? Razorback?
+  Razorback equivalent, transports 1 stand. 
 }
 \stats{AV}{30cm}{5+}{6+}{5+}
 \weapon{Bellicatus Missile Array}{45cm}{AP5+/AT6+}{}
@@ -334,6 +357,7 @@ Lore stuff
 
 \unit{Hammerfall Bunker} {
   finally gets deepstrike
+  The missile array may look the same as a whirlwind, but it isnt. If the list needs some sources of indirect / barrage i'd be happy to change it
 }
 \stats{AV}{0}{4+}{6+}{4+}
 \weapon{Hammerfall Missile Array}{45cm}{2xAP5+/AT6+}{}
@@ -347,13 +371,25 @@ Lore stuff
   I forgot this exists
 }
 \stats{LV}{5cm}{4+}{6+}{5+}
-\weapon{Twin Firestrike autocannon}{45cm}{2xAA5+/AT6+}{}
+\weapon{Firestrike Autocannons}{45cm}{2xAP5+/AT6+/AA5+}{}
 \image{default.png}
 \notes{}
 \statsEND
 
+\unit{Astreus Super Heavy Tank} {
+  Macro Accelerator cannon is 12 shots sus1 72" autocannon 
+}
+\stats{WE}{25cm}{4+}{6+}{4+}
+\weapon{Twin Macro Accelerator Cannon}{75cm}{4xAP4+/AT5+}{}
+\weapon{Twin Lascannon}{45cm}{AT4+}{}
+\weapon{Plasma Eradicators}{30cm}{2xAP5+/AT5+}{}
+\image{default.png}
+\notes{Damage Capacity 3, Reinforced Armor, Planetfall, 1 Void Shield. Critical Hit Effect:
+Destroyed. All units within 5cm of the model suffer a hit on a roll of 6+.}
+\statsEND
+
 \unit{Overlord Gunship} {
-  who knows
+  who knows. Might go with a thunderhawk instead, as per space marine 2
 }
 \stats{AC / WE}{Bomber}{4+}{6+}{4+}
 \weapon{All the Guns}{???}{???}{}
@@ -361,6 +397,22 @@ Lore stuff
 \notes{Damage Capacity 2, Reinforced Armor, Planetfall, Transport. May transport eight
 infantry units, Outriders or Dreadnoughts; Gravis units and Dreadnoughts count
 as two units each. Critical Hit Effect: The unit and all units being carried are destroyed.}
+\statsEND
+
+\unit{Drop Pod} {
+  STEEEEEL RAIN
+}
+\stats{Special}{N/A}{N/A}{N/A}{N/A}
+\weapon{Deathwind}{15cm}{AP5+/AT5+}{}
+\image{default.png}
+\notes{Planetfall, Transport. May transport one formation of only Dreadnoughts or infantry
+units without Jump Packs, Mounted, or Gravis. After the drop pod
+lands, its Deathwind attacks all enemy units within 15cm. Each enemy formation
+attacked receives a Blast marker for coming under fire, and an extra Blast marker for
+each casualty. Then any troops carried in the drop pod must disembark within 5cm of
+the drop pod or within 5cm of another unit from the same formation that has already
+landed, so long as all units are placed within 15cm of the drop pod. Drop pod models
+should be removed from the board once the formation they transport has disembarked.}
 \statsEND
 % unit template (copy and paste)...
 % \unit{Nurgloid} {							% required
@@ -378,7 +430,7 @@ as two units each. Critical Hit Effect: The unit and all units being carried are
 % ARMY LIST
 %
 \clearpage
-\section{Primaris Space Marine Army}
+\section{Ultima Founding Primaris Space Marine Army}
 \subsection{Using the Army List}
 IDK how they work
 \specialRule{Space Marine Transports}{
@@ -390,14 +442,17 @@ IDK how they work
   number of Impulsors will always be the minimum needed to
   carry the formation, you can’t take extras along to cover
   any losses!
+  \newline
   Note that many formations don’t receive Impulsors, usually
   because they can’t fit into them. Detachments that come
   with Impulsors will be noted as having “plus transport” in the
   units section of the army list opposite.
+  \newline
   Also note that you don’t have to take Impulsors if you don’t
   want to. If you’d rather field the formation on foot instead,
   so it can act as a garrison for example, or be transported in
   a Overlord Gunship, then you may do so.
+  \newline
   In addition, you may choose to replace a detachment’s
   Impulsors with Drop Pods. If you do this then the
   detachment will enter play in a Drop Pod using the rules
@@ -428,7 +483,7 @@ special ability remove 2 Blast markers instead of 1
 }
 
 % header...
-\armylist{Death Guard Chaos Space Marine Army List}{150-nurgle-mark.png}{
+\armylist{Ultima Founding Primaris Space Marine Army List}{150-nurgle-mark.png}{
   Codex Astartes Space Marine armies have a strategy rating of 5. Imperial Navy aircraft formations have an initiative rating of 2+. All
   other formations have an initiative rating of 1+
 }
@@ -438,22 +493,14 @@ special ability remove 2 Blast markers instead of 1
           {6 Intercessor Squad plus transport}
           {Company Command, Dreadnoughts, Repulsors}
           {275 points}
-\formation{Phobos Battle Line}
-          {Any 6 Infiltrators, Incursors plus transport}
-          {Company Command, Invictor Warsuits}
-          {275 points}
 \formation{Heavy Battle Line}
           {4 Heavy Intercessor Squad plus transport}
           {Company Command, Dreadnoughts, Repulsors}
-          {250 points}
+          {300 points}
 \formation{Close Support}
           {Any 4 Assault Intercessor, Assault Intercessors with Jump Packs plus transport}
-          {Company Command, Dreadnoughts, Repulsors}
-          {175 points}  
-\formation{Phobos Close Support}
-          {4 Reivers}
-          {Company Command, Invictor Warsuits}
-          {200 points}
+          {Company Command, Dreadnoughts, Repulsors, Veterans}
+          {175 points}
 \formation{Heavy Close Support}
           {4 Aggressors plus transport}
           {Company Command, Dreadnoughts, Repulsors}
@@ -470,71 +517,30 @@ special ability remove 2 Blast markers instead of 1
           {4 Aggressors plus transport}
           {Company Command, Dreadnoughts, Repulsors}
           {350 points}
+\formation{10th Company Support}
+          {4 Infiltrator Squads, Incursor Squads, Eliminator Squads, Reiver Squads}
+          {Company Command, Invictor Warsuit}
+          {250 points}
 \formation{Storm Speeders}
           {Any 3 Storm Speeders}
           {None}
           {200 points}
-\formationsEND
-
-
-% support...
-\formations{DEATH GUARD INFANTRY SUPPORT}{One per Death Guard Core Retinue}
-\formation{Death Guard Drop Retinue}
-          {One Death Guard Lord. Four Death Guard Chaos Marine and two Plague Marines units.}
-          {Chaos Champion, Daemonic Pact, Daemon Prince, Death Guard Havocs, Dreadclaws, Icon Bearer, Plague Marines, Walkers}
+\formation{Gladiators}
+          {Any 4 Gladiators}
+          {None}
           {250 points}
-\formation{Death Guard Terminator Retinue}
-          {One Death Guard Lord. Between four to seven Death Guard Terminator units.}
-          {Chaos Champion, Daemonic Pact, Daemon Prince, Icon Bearer, Transport, Walkers}
-          {50 points \newline +100 points per unit}
-\formation{Plague Zombie Infestation}
-          {D6 + 7 Plague Zombie units.}
-          {}
-          {175 points}
+\formation{Repulsors}
+          {Any 4 Repulsor, Repulsor Executioner}
+          {None}
+          {350 points}
 \formationsEND
-\formations{DEATH GUARD VEHICLE SUPPORT}{One per Death Guard Core Retinue}
-\formation{Armoured Company}
-          {Four units from following list: Predators, Land Raiders}
-          {Support Vehicles}
-          {50 points per Predator \newline 100 points per Land Raider}
-\formation{Assault Retinue}{Up to three Plague Reapers.}{Support Vehicles, Walkers}{275 points each}
-\formation{Blight Drone Swarm}{Five Blight Drones.}{}{250 points}
-\formation{Contagion Towers}{Four Contagion Towers.}{}{325 points}
-\formation{Plague Towers}{Up to three Plague Towers.}{}{325 points each}
-\formation{Defilers Assault Pack}{Four Defilers.}{Walkers}{275 points each}
-\formationsEND
-
-% assets...
-\upgrades{DEATH GUARD TITANS, SPACECRAFT AND NAVY ASSETS}{Up to a third of points}
-\upgrade{Plaguelord Titan}{One Plaguelord Titan}{850 points}
-\upgrade{Repugnant Titan}{One Repugnant Titan}{650 points}
-\upgrade{Fester Titan Pack}{One to two Fester Scout Titans}{300 points each}
-\upgrade{Hellblade}{Three Hellblade Fighters}{200 points}
-\upgrade{Helltalon}{Two Helltalon Fighter-Bombers}{200 points}
-\upgrade{Devastation}{One Devastation class Cruiser}{250 points}
-\upgrade{Despoiler}{One Despoiler class Battleship}{250 points}
-\upgradesEND
 
 % upgrades...
 \upgrades{PRIMARIS SPACE MARINE UPGRADES}{Each upgrade may only be taken once if formation allows taking it}
 \upgrade{Company Command}{Adds a Captain, Chaplain, or Lieutenant in matching armor to a unit in the formation}{50 points}
-\upgrade{Gravis}{Upgrade Intercessors to Heavy Intercessors}{100 points}
-\upgrade{Demonic Pact}{Allows the formation to summon Demons from the Demon Pool}{25 points}
-\upgrade{0 - 1 Demon Prince}{Replace the unit with Death Guard Lord character with the Daemon Prince unit.}{50 points}
-\upgrade{Dreadclaw}{Equips the formation with Dreadclaw Assault Boats. There must be at least enough to transport all units in formation.}{25 per 4 units}
-\upgrade{Death Guard Havocs}{Add four Death Guard Havocs to the formation}{200 points}
-\upgrade{Icon Bearer}{Add an Icon Bearer to a unit in the formation}{50 points}
-\upgrade{Plague Marines}{Add four Plague Marines to the formation}{150 points}
-\upgrade{Support Vehicles}
-		{Add up to three units \pushRight Predator, Stalker \newline \pushRight Land Raider}
-        {50 points \newline 75 points}
-\upgrade{Transport}
-        {Add Rhinos and/or Land Raiders to the formation. You can take only minimum to transport the
-         formation (including any transport capable unit taken from Support Vehicle Upgrade).}
-        {10 per Rhino \newline 75 per Land Raider}
-\upgrade{Walkers}
-        {Add up to three units \pushRight Dreadnought \newline \pushRight Defiler, Desecrator }
-        {50 points \newline 75 points}
+\upgrade{Dreadnought}{Add 1 Redemptor, Brutalis, or Ballistus Dreadnought to the formation}{50 points}
+\upgrade{Repulsors}{Add up to 4 Repulsors, up to the number required to transport the formation}{75 points each}
+\upgrade{Close Support Veterans}{Replace up to 4 Assault Intercessors with Bladeguard Veterans}{10 points each}
 \upgradesEND
 
 \twocolumn			% required after the army list
